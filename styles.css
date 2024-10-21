@@ -1,26 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    
-}
-
-.body {
+.main-container {
     background-color: rgb(171, 136, 109);
-    height: 1122.5px;
-    width: 793.7px;
-    font-family: "Agdasima", sans-serif;
+    padding: 7rem 0;
     color: rgb(73, 54, 40);
-    }
+    font-family: "Agdasima", sans-serif;
+}
 
 header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 112.3px;
-    margin: 30px auto;
+    padding: 2rem 0;
     background-color: transparent;   
 }
 
@@ -54,14 +49,12 @@ main {
 }
 
 .calender {
-    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(6, 80px);
     grid-template-rows: repeat(8, 80px);
     justify-content: space-around;
     align-items: space-around;
     gap: 10px;
-    height: 898.56px; 
 }
 
 .date-block {
@@ -78,7 +71,7 @@ main {
 }
 
 footer {
-    display: flex;
-    justify-content: flex-end;
-    color: rgb(214, 192, 179);;
+    text-align: end;    
+    background-color: rgb(171, 136, 109);
+    color: rgb(214, 192, 179);
 }
